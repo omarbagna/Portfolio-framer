@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 const ContactEmail = () => {
 	return (
@@ -12,7 +13,7 @@ const ContactEmail = () => {
 				</div>
 				<div className="mail-wrap">
 					<button className="contact-mail">
-						<a href="/contact">bagna27@outlook.com</a>
+						<Link to="/contact">bagna27@outlook.com</Link>
 					</button>
 				</div>
 			</div>

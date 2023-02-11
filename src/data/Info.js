@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const IntroInfo = () => {
 	return (
@@ -34,9 +35,9 @@ export const AboutInfo = () => {
 				<br />
 				<br />
 				At last, Feel free to{' '}
-				<a href="/contact" style={style}>
+				<Link to="/contact" style={style}>
 					Contact ME.
-				</a>{' '}
+				</Link>{' '}
 				We can listen to good POP music together 🎧.
 			</p>
 		</>
