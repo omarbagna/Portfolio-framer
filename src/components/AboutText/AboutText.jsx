@@ -1,14 +1,14 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
-import { AboutInfo } from "../../data/Info";
+import { AboutInfo } from '../../data/Info';
 
 const AboutText = () => {
-  return (
-    <div className="about-text">
-      <AboutInfo />
-    </div>
-  );
+	return (
+		<div className="about-text">
+			<AboutInfo />
+		</div>
+	);
 };
 
 export default AboutText;

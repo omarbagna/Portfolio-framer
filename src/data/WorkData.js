@@ -1,75 +1,45 @@
 export const WorkData = [
-  {
-    id: 1,
-    name: "MapSearch",
-    description:
-      "WebApp to Search for restaurants, hotels and local attractions spots based on your location",
-    tags: [
-      "react",
-      "material-ui",
-      "google-map-api",
-      "travel-advisor-api",
-      "Rapid api",
-      "Geolocation",
-    ],
+	{
+		id: 1,
+		name: 'Beats E-Commerce Landing Page',
+		description:
+			'Using vanilla HTML5, CSS3 and JavaScript, I built this clone landing page of a Beats E-Commerce site with a light and dark mode theme toggle functionality.',
+		tags: [
+			'html5',
+			'css3',
+			'javascript',
+			'animate css',
+			'dark mode',
+			'light mode',
+		],
 
-    demo: "/",
-    github: "https://github.com/Abhirajmaid/Portfolio",
-    img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
-    side: true,
-  },
-  {
-    id: 2,
-    name: "EcoSocial - Landding Page",
-    description:
-      "Its a landing page created for the competition purposes (competition organized by Earth.org). Its was an idea competition. Our idea was ecosocial and this landing page explain the idea and generate leads. I'm using firestore-db to store data.",
-    tags: ["react", "react-router", "Firestore-Database", "firebase-hosting"],
+		demo: 'https://bagna-beats-landing-page-clone.netlify.app/',
+		github: 'https://github.com/omarbagna/sampleBeatslandingpage',
+		img: 'https://raw.githubusercontent.com/omarbagna/portfolioImages/main/beatsClone.png',
+		side: true,
+	},
+	{
+		id: 2,
+		name: 'GPT-3 Landing Page',
+		description:
+			'A simple Artificial intelligence website built with React JS and styled with CSS3. The website is fully responsive across all devices.',
+		tags: ['react', 'scss', 'css3', 'animate css'],
 
-    demo: "http://ecosocial.ga",
-    github: "https://github.com/Abhirajmaid/Landing-Page",
-    img: "https://github.com/Abhirajmaid/Media-Storage/blob/master/EcoSocial.png?raw=true",
-    side: false,
-  },
-  {
-    id: 3,
-    name: "Personal-Porfolio",
-    description: "My main Portfolio website to show all my work",
-    tags: [
-      "javascrpt",
-      "react",
-      "react-router",
-      "Framer motion",
-      "firebase hosting",
-    ],
+		demo: 'https://gpt3-ai-homepage.netlify.app/',
+		github: 'https://github.com/omarbagna/fullyResponsiveAiInfoSite',
+		img: 'https://raw.githubusercontent.com/omarbagna/portfolioImages/main/gpt3Site.png',
+		side: false,
+	},
+	{
+		id: 3,
+		name: 'Tech Seals ATM App Website',
+		description:
+			'Using Figma, React JS and Tailwind CSS, I designed and built this landing page to showcase a python application my team and built while in the Azubi AWS re/Start program.',
+		tags: ['javascrpt', 'react', 'Framer motion', 'tailwind css'],
 
-    demo: "https://abhirajmaid.ml",
-    github: "https://github.com/Abhirajmaid/Portfolio",
-    img: "https://github.com/Abhirajmaid/Media-Storage/blob/master/Portfolio.png?raw=true",
-    side: true,
-  },
-  {
-    id: 4,
-    name: "Amazon Clone",
-    description:
-      "Basic clone. With the functionalities: Functional Cart, Currency calculator (i.e Total), Firebase Auth., Sign-up and Login,",
-    tags: ["react", "firebase-auth", "context-api", "react-router"],
-
-    demo: "https://clone-fcc92.web.app/",
-    github: "https://github.com/Abhirajmaid/Amazon-clone",
-    img: "https://github.com/Abhirajmaid/Media-Storage/blob/master/Amazon-clone.png?raw=true",
-    side: false,
-  },
-
-  // {
-  //   id: 5,
-  //   name: "Meme generator",
-  //   description:
-  //     "Web app which generate new MEME (with the help of meme api) with the custom input text",
-  //   tags: ["react", "css", "meme-api"],
-
-  //   demo: "/",
-  //   github: "https://github.com/Abhirajmaid/Meme_generator",
-  //   img: "https://images.unsplash.com/photo-1646713369588-add27cc47d77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
-  //   side: true,
-  // },
+		demo: 'https://techsealsatm.netlify.app/',
+		github: 'https://github.com/omarbagna',
+		img: 'https://raw.githubusercontent.com/omarbagna/portfolioImages/main/techsealsImage.png',
+		side: true,
+	},
 ];
