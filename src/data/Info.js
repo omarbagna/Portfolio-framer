@@ -5,8 +5,7 @@ export const IntroInfo = () => {
 	return (
 		<>
 			<p>
-				I a frontend developer with over 3 years of experience. Also a problem
-				solver and an ideas man. Two things I can't live without Coffee and
+				I am a frontend developer with over 3 years of experience. I mainly develop web applications with React JS. Two things I can't live without Coffee and
 				Coding <br />
 				"I write code, love code, live code."
 			</p>
@@ -30,7 +29,7 @@ export const AboutInfo = () => {
 				clients to help boost their online presence and generate relevant
 				traffic.
 				<br />
-				<br />I love exploring different kind of fields and I do some photo
+				<br />I love exploring different kinds of fields and I do some photo
 				editing in Lightroom.
 				<br />
 				<br />
@@ -38,7 +37,7 @@ export const AboutInfo = () => {
 				<Link to="/contact" style={style}>
 					Contact ME.
 				</Link>{' '}
-				We can listen to good POP music together 🎧.
+				We can listen to good music together 🎧.
 			</p>
 		</>
 	);
